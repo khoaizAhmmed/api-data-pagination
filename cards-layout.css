@@ -1,0 +1,185 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+
+.credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.credit a{
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black
+
+}
+.credit a:hover{
+  color: #0662eb;
+}
+
+.credit img {
+  height: 20px;
+  width: 20px;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+img {
+  height: 250px;
+  max-width: 400px;
+  vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+
+.btn {
+  color:#0662eb;
+  padding: 0.8rem;
+  font-size: 17px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #0662ebcb;
+  background: transparent;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: rgb(0, 99, 247);
+  color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 470px;
+}
+
+.card_content {
+  padding: 1.1rem;
+  background-image: #eeee;
+  height: 200px;
+}
+.card_title {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+
+.card_text {
+  color: #000;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 600;
+  min-height: 80px;
+}
+
+@media only screen and (max-width: 800px) {
+  .credit a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: black
+  
+  }
+
+}
+
+@media only screen and (max-width: 520px) {
+  .credit a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: black
+  
+  }
+
+}
