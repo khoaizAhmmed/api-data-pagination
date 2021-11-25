@@ -172,11 +172,13 @@ img {
 
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 500px) {
+  .credit img{
+    display: none;
+  }
   .credit a{
     text-decoration: none;
-    padding-right: 20px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: 600;
     color: black
   
